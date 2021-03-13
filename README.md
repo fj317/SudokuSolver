@@ -12,12 +12,12 @@ In order to check each row, column and 3x3 square was valid I created an algorit
 Another problem I encountered was how I would update the domainArray after each variable had a new value assigned to it. One solution would be to rerun the getDomainArray() function which returns the domain array again. However, this requires to iterate over every variable in the sudoku. This is slow and unneeded as only the domains of each variable in the row, columnn and square that the variable is located in actualy have to be updated, rather than every variable in the sudoku. In the end I choose the first solution to this problem and recalculated the domain array as each variable is updated. This is because the required logic to subtract only one from each of the row, column & square domain array values would be very difficult to implement so I did not end up doing it in this way. 
 
 ## References
-Anil Kemisetti. 2021. Solving Sudoku … Think Constraint Satisfaction Problem | by Anil Kemisetti | My Udacity Ai Nanodegree Notes | Medium. [ONLINE] Available at: https://medium.com/my-udacity-ai-nanodegree-notes/solving-sudoku-think-constraint-satisfaction-problem-75763f0742c9. [Accessed 12 March 2021].
+Anil Kemisetti, AK. 2021. Solving Sudoku - Think Constraint Satisfaction Problem [ONLINE]. Available at: https://medium.com/my-udacity-ai-nanodegree-notes/solving-sudoku-think-constraint-satisfaction-problem-75763f0742c9. [Accessed 12 March 2021].
 
-Reddit. 2021. How to divide 9X9 matrix into nine 3X3 matrices?. [ONLINE] Available at: https://www.reddit.com/r/learnpython/comments/dpnm0x/how_to_divide_9x9_matrix_into_nine_3x3_matrices/f5x1q8l?utm_source=share&utm_medium=web2x&context=3. [Accessed 12 March 2021].
+Reddit. 2021. How to divide 9X9 matrix into nine 3X3 matrices? [ONLINE]. vailable at: https://www.reddit.com/r/learnpython/comments/dpnm0x/how_to_divide_9x9_matrix_into_nine_3x3_matrices/f5x1q8l?utm_source=share&utm_medium=web2x&context=3. [Accessed 12 March 2021].
 
-Stack Overflow. 2021. python - Numpy: get the column and row index of the minimum value of a 2D array - Stack Overflow. [ONLINE] Available at: https://stackoverflow.com/a/30180322. [Accessed 12 March 2021].
+Stack Overflow. 2021. python - Numpy: get the column and row index of the minimum value of a 2D array [ONLINE]. Available at: https://stackoverflow.com/a/30180322. [Accessed 12 March 2021].
 
-Constraint Satisfaction With Sudoku • steven.codes. 2021. Constraint Satisfaction With Sudoku • steven.codes. [ONLINE] Available at: https://steven.codes/blog/constraint-satisfaction-with-sudoku/. [Accessed 12 March 2021].
+Steven.codes. 2021. Constraint Satisfaction With Sudoku [ONLINE]. Available at: https://steven.codes/blog/constraint-satisfaction-with-sudoku/. [Accessed 12 March 2021].
 
 Moodle: CM20252 Artificial Intelligence. 2021. Week 2: Informed Search and Constraint Satisfaction. [ONLINE] Available at: https://moodle.bath.ac.uk/mod/resource/view.php?id=974662. [Accessed 12 March 2021].
